@@ -1,0 +1,17 @@
+function evenify_all(nums){
+    for(let i=0; i < nums.length; i++){
+        const num = nums[i];
+     if(num % 2 == 0){
+        console.log(num, 'is even number');
+    }
+     else{
+        console.log(num*2, 'is odd number');
+    }
+     
+  }
+}
+nums=[23,21,76,45,32];
+evenify_all(nums);
+
+friends_age=[23,71,11,24,26];
+evenify_all(friends_age);

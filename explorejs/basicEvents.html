@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Company</title>
+</head>
+<body>
+    <h1 onclick="alert('something wrong')">Exploring Events</h1>
+    <button onclick="alert('isn`t responding')">Click me</button>
+
+    <h2 onclick="btnClick1()">Explore Something new</h2>
+    <button onclick="btnClick1()">Click here</button>
+
+    <h3 onclick="handleClick()">Exploring click on the mouse</h3>
+    <button onclick="btnClick()">over there</button>
+
+    <script>
+        function handleClick() {
+            console.log(new Date);
+        }
+        function btnClick1() {
+            console.log('not available');
+        }
+        function btnClick() {
+            console.log('isn`t responding');
+        }
+    </script>
+</body>
+</html>
